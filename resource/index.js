@@ -20,10 +20,10 @@ bot.on('ready', () => {
 bot.on('guildMemberAdd', member => {
 	const embed = new Discord.RichEmbed()
 		.setTitle('Сообщество FURRY')
-		.setAuthor('FURS.Network', 'https://cdn.discordapp.com/avatars/317570687629918208/5f0811c02dbbdf4903215874841d17e7.jpg')
+		.setAuthor('FURS.Network', 'https://furs.chat/storage/images/discord/logo.bot.hello.png')
 		.setColor(0xFF0000)
 		.setDescription('Привет, ' + member + '!\nЯ бот сообщества [FURS.Network](https://furs.network/) и интернет-радиостанции [Радио W.T.F.](https://radio.wtf/)\nУ нас ты можешь найти друзей по интересам, узнать много нового и необычного, рассказать о своем увлечении или навыке в прямом эфире.')
-		.setFooter('© FURS.Network','https://cdn.discordapp.com/avatars/317570687629918208/5f0811c02dbbdf4903215874841d17e7.jpg')
+		.setFooter('© FURS.Network','https://furs.chat/storage/images/discord/logo.bot.hello.png')
 		.setImage('')
 		.setThumbnail('')
 		.setTimestamp()
